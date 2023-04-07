@@ -36,7 +36,7 @@ public class FluxTest {
                 .log()
                 .take(2)
                 .subscribe();
-        //Thread.sleep(5000);
+//        Thread.sleep(5000);
     }
 
     @Test
