@@ -12,7 +12,7 @@ import web.app.madhurgupta.service.SpeakerServiceImpl;
 @ComponentScan({"web.app.madhurgupta"})
 public class AppConfig {
 
-    @Bean(name = "speakerService")
+/*    @Bean(name = "speakerService")
     @Scope(value= BeanDefinition.SCOPE_SINGLETON)
     public SpeakerService getSpeakerService() {
         //SpeakerServiceImpl service = new SpeakerServiceImpl(getSpeakerRepository());
@@ -25,6 +25,6 @@ public class AppConfig {
     @Bean(name = "speakerRepository")
     public SpeakerRepository getSpeakerRepository() {
         return new HibernateSpeakerRepositoryImpl();
-    }
+    }*/
 
 }
