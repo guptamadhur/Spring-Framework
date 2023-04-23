@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.wiredbraincoffee.product-api-functional' is invalid and this project uses 'com.wiredbraincoffee.productapifunctional' instead.
+* The original package name 'web.app.madhurgupta.product-api-functional' is invalid and this project uses 'web.app.madhurgupta.productapifunctional' instead.
 
 # Getting Started
 
