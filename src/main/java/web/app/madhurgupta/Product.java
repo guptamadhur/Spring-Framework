@@ -1,13 +1,8 @@
-package web.app.madhurgupta.productapifunctional.model;
-
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+package web.app.madhurgupta;
 
 import java.util.Objects;
 
-@Document
 public class Product {
-    @Id
     private String id;
 
     private String name;
@@ -63,7 +58,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "web.app.madhurgupta.Product{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", price=" + price +

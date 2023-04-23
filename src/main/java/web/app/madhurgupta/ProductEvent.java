@@ -1,4 +1,4 @@
-package web.app.madhurgupta.productapifunctional.model;
+package web.app.madhurgupta;
 
 import java.util.Objects;
 
@@ -46,7 +46,7 @@ public class ProductEvent {
 
     @Override
     public String toString() {
-        return "ProductEvent{" +
+        return "web.app.madhurgupta.ProductEvent{" +
                 "eventId='" + eventId + '\'' +
                 ", eventType='" + eventType + '\'' +
                 '}';
